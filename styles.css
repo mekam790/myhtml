@@ -1,0 +1,8 @@
+embed {
+    display: block;
+    margin: auto;
+}
+p {
+    background-color: beige;
+    font-family: "Press Start 2P", system-ui;
+}
