@@ -25,7 +25,6 @@
 // let list = document.querySelector("mylist"),  can be used for classes and ids
 
 let input = document.getElementById("input")
-
 let button = document.getElementById("btn")
 let items = document.getElementById("items")
 
