@@ -1,3 +1,9 @@
+body.startpage {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.thehungryjpeg.com%2Fthumbs2%2F800_3561233_6wcg81relcnefzigajzetka4xotu2iurftzrg5o0_pixel-art-sky-clouds-8-bit-skyline-retro-video-game-cloud-landscape.jpg&f=1&nofb=1&ipt=d56649a5348cc8da5b062a8bd33a1881303cebf1609f3cbd6d98123c3687b03c&ipo=images");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
 embed {
     display: block;
     margin: auto;
@@ -5,4 +11,35 @@ embed {
 p {
     background-color: beige;
     font-family: "Press Start 2P", system-ui;
+}
+button {
+    font-family: "Press Start 2P", system-ui;
+    padding: 30px;
+    font-size: 10px;
+    color:rgb(from rgb(253, 157, 24) r g b);
+    background-color: rgb(from rgb(167, 18, 18) r g b);
+    border-radius: 100px;
+    border-color: black;
+    border-width: 10px;
+    box-shadow: 0 10px black;
+    margin: 10px;
+    align-items: center;
+}
+button:active {
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+}
+button:hover {
+    opacity: 0.9;
+    transition: all 0.3;
+}
+#start {
+    margin-top: 200px;
+}
+#button {
+    display:flex;
+    justify-content: center;
+}
+#heading {
+    text-align: center;
 }

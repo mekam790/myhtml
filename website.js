@@ -24,30 +24,30 @@
 
 // let list = document.querySelector("mylist"),  can be used for classes and ids
 
-let input = document.getElementById("input")
-let button = document.getElementById("btn")
-let items = document.getElementById("items")
+// let input = document.getElementById("input")
+// let button = document.getElementById("btn")
+// let items = document.getElementById("items")
 
-function addTodo() {
-    let todo = input.value
-    let p = document.createElement("p")
-    let removeBtn = document.createElement("button")
+// function addTodo() {
+//     let todo = input.value
+//     let p = document.createElement("p")
+//     let removeBtn = document.createElement("button")
 
-    p.innerText = todo
-    removeBtn.innerText = "Remove"
+//     p.innerText = todo
+//     removeBtn.innerText = "Remove"
 
-    items.appendChild(p)
-    items.appendChild(removeBtn)
+//     items.appendChild(p)
+//     items.appendChild(removeBtn)
 
-    function removeTodo(){
-        p.remove()
-        removeBtn.remove()
-    }
+//     function removeTodo(){
+//         p.remove()
+//         removeBtn.remove()
+//     }
 
-    removeBtn.addEventListener("click", removeTodo)
-}
+//     removeBtn.addEventListener("click", removeTodo)
+// }
 
-button.addEventListener("click", addTodo)
+// button.addEventListener("click", addTodo)
 
-localStorage.setItem(key, value)
-localStorage.getItem(key)
+// localStorage.setItem(key, value)
+// localStorage.getItem(key)
